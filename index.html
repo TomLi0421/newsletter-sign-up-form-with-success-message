@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Sign-up form -->
+    <div class="sign-up-container">
+      <img
+        class="sign-up-image"
+        src="./assets/images/illustration-sign-up-mobile.svg"
+        alt="sign up mobile"
+      />
+      <div class="sign-up-content-container">
+        <h1 class="sign-up-title">Stay updated!</h1>
+        <p class="sign-up-description">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul class="sign-up-list">
+          <li class="sign-up-item">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="success"
+              class="sign-up-tick"
+            />Product discovery and building what matters
+          </li>
+          <li class="sign-up-item">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="success"
+              class="sign-up-tick"
+            />Measuring to ensure updates are a success
+          </li>
+          <li class="sign-up-item">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="success"
+              class="sign-up-tick"
+            />And much more!
+          </li>
+        </ul>
+        <div class="sign-up-subscribe-container">
+          <form action="./success.html" onsubmit="return ValidateEmail()">
+            <div class="sign-up-email-label">
+              <label for="email" class="sign-up-email-label"
+                >Email address</label
+              >
+              <span class="sign-up-invald" style="display: none"
+                >Valid email required</span
+              >
+            </div>
+            <input
+              type="text"
+              placeholder="email@company.com"
+              class="sign-up-email"
+              id="email"
+              required
+            />
+            <button class="sign-up-subscribe-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">TomLi0421</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
