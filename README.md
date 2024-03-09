@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/TomLi0421/Newsletter-sign-up-form-with-success-message](https://github.com/TomLi0421/Newsletter-sign-up-form-with-success-message)
-- Live Site URL: [https://tomli0421.github.io/Newsletter-sign-up-form-with-success-message/](https://tomli0421.github.io/Newsletter-sign-up-form-with-success-message/)
+- Solution URL: [https://github.com/TomLi0421/newsletter-sign-up-form-with-success-message](https://github.com/TomLi0421/newsletter-sign-up-form-with-success-message)
+- Live Site URL: [https://tomli0421.github.io/newsletter-sign-up-form-with-success-message/](https://tomli0421.github.io/newsletter-sign-up-form-with-success-message/)
 
 ### Built with
 
